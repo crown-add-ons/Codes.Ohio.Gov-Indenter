@@ -8,8 +8,8 @@
 // @author      Jonathan (Jon) Freed
 // @license     The Unlicense.  See http://unlicense.org/.
 // @supportURL  https://github.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js
-// @downloadURL https://raw.githubusercontent.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js/master/Codes_Ohio_Gov_Indenter.user.js
-// @updateURL   https://raw.githubusercontent.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js/master/Codes_Ohio_Gov_Indenter.user.js
+// @downloadURL https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
+// @updateURL   https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
 // @match       http://codes.ohio.gov/*
 // @grant       none
 // @run-at      document-idle
