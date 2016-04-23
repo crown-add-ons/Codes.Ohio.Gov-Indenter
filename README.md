@@ -1,10 +1,10 @@
 # Codes_Ohio_Gov_Indenter.user.js
 The userscript/".user.js" script in this repository can be used with browser extensions like [Greasemonkey](http://www.greasespot.net/) or [Tampermonkey](http://tampermonkey.net/) that facilitate [augmented browsing](https://en.wikipedia.org/wiki/Augmented_browsing).
 
-This script is for http://codes.ohio.gov/, which is Ohio's online copy of its Revised Code (laws) and Administrative Code.  This script indents the ORC and OAC's divisions and subdivisions, etc., which greatly improves their readability.
+The script is for http://codes.ohio.gov/, which is Ohio's online copy of its Revised Code (laws) and Administrative Code.  The script indents the ORC and OAC's divisions and subdivisions, etc., which greatly improves their readability.
 
 ##INSTALLATION:
-If you already have a browser extension like [Greasemonkey](http://www.greasespot.net/) or [Tampermonkey](http://tampermonkey.net/), then just go to the following URL to install this script:
+If you already have a browser extension like [Greasemonkey](http://www.greasespot.net/) or [Tampermonkey](http://tampermonkey.net/), then just go to the following URL to install the script:
 https://raw.githubusercontent.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js/master/Codes_Ohio_Gov_Indenter.user.js
 
 ##NEED SUPPORT?
