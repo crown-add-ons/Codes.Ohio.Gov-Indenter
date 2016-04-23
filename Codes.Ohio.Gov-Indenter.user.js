@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Codes_Ohio_Gov_Indenter.user.js
 // @namespace   http://facilitationtechnologies.com/
-// @version     1.0.1
+// @version     1.0.2
 // @description Indents the divisions and subdivisions, etc. in Ohio's online
 //              copy of its laws (Revised Code; ORC) and Administrative Code 
 //              (OAC).
