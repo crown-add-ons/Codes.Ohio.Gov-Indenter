@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        Codes_Ohio_Gov_Indenter.user.js
 // @namespace   http://facilitationtechnologies.com/
-// @version     1.0
-// @description This script indents the divisions and subdivisions, etc. in
-//              Ohio's online copy of its laws (Revised Code; ORC) and
-//              Administrative Code (OAC).
+// @version     1.0.1
+// @description Indents the divisions and subdivisions, etc. in Ohio's online
+//              copy of its laws (Revised Code; ORC) and Administrative Code 
+//              (OAC).
 // @author      Jonathan (Jon) Freed
+// @license     The Unlicense.  See http://unlicense.org/.
 // @supportURL  https://github.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js
 // @match       http://codes.ohio.gov/*
 // @grant       none
@@ -20,7 +21,7 @@ if( document.readyState !== "loading" ) {
   // Then do the indenting
   vIndentContentByLevel();
 }
-else { // Else tell the browser wait until doc is loaded to do the indenting.
+else { // Have the browser wait until doc is loaded to do the indenting.
   document.addEventListener('DOMContentLoaded', vIndentContentByLevel);
 }
 // Define the function that will do the indenting
@@ -36,9 +37,8 @@ function vIndentContentByLevel() {
       // reset the indenting to zero
       sPaddingLeft = "0px";
     }
-    // Else, if we're on a "P" that isn't a history "P"...
-    else if( aX[iX].nodeName === "P" &&
-	         aX[iX].matches('p:not([class^=History])') ) {
+    // Else, if we're on a "p" that isn't a history "p"...
+    else if( aX[iX].matches('p:not([class^=History])') ) {
       // Try to get the node's first "a" anchor and its "name" attribute value.
       var sName = ((aY=aX[iX].querySelector("a")) === null ? undefined : aY.name);
       // If we got a name value...
