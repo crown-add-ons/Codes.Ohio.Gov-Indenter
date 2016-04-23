@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Codes_Ohio_Gov_Indenter.user.js
+// @name        Codes.Ohio.Gov-Indenter.user.js
 // @namespace   http://facilitationtechnologies.com/
 // @version     1.0.2
 // @description Indents the divisions and subdivisions, etc. in Ohio's online
@@ -7,7 +7,7 @@
 //              (OAC).
 // @author      Jonathan (Jon) Freed
 // @license     The Unlicense.  See http://unlicense.org/.
-// @supportURL  https://github.com/jon-freed/Codes_Ohio_Gov_Indenter.user.js
+// @supportURL  https://github.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js
 // @downloadURL https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
 // @updateURL   https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
 // @match       http://codes.ohio.gov/*
