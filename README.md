@@ -8,4 +8,4 @@ If you already have a browser extension like [Greasemonkey](http://www.greasespo
 https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
 
 ##NEED SUPPORT?
-Go create an issue at https://github.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/issues.  Please bear in mind that this is free software that has been donated to the public domain through [the Unlicense](http://unlicense.org/) and support may be quite slow in coming.
+Go create an [issue](https://github.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/issues).  Please bear in mind that this is free software that has been donated to the public domain through [the Unlicense](http://unlicense.org/) and support may be quite slow in coming.
