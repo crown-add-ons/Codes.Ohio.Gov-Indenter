@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Codes.Ohio.Gov-Indenter.user.js
 // @namespace   http://dmiratech.com/
-// @version     1.1.1
+// @version     1.1.2
 // @description Indents the divisions and subdivisions, etc. in Ohio's online
 //              copy of its laws (Revised Code; ORC) and Administrative Code
 //              (OAC).
@@ -36,7 +36,7 @@ function vIndentContentByLevel() {
     var aX = document.querySelectorAll("div#doc > div.content > *");
 
     // Declare/initialize variables to help us process those children
-    var reForOutlineLvlPrefix = /^[\W\s]*\((.+)\)[\W\s]/;
+    var reForOutlineLvlPrefix = /^[\W\s]*\((.+)\)/;
     var aCurPrefixes = [];
     var aReLvls = [
         /[A-Z]+/ //     Length = 1, Level 0: Capital Letters
