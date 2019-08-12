@@ -1,6 +1,10 @@
 # Codes.Ohio.Gov-Indenter.user.js
 
-The **Codes.Ohio.Gov-Indenter.user.js** "userscript" indents and thereby improves the readability of Ohio's online Revised Code (laws) and Adminstrative Code at http://codes.ohio.gov/.  The userscript indents divisions and subdivisions, etc.
+The **Codes.Ohio.Gov-Indenter.user.js** "[userscript](https://en.wikipedia.org/wiki/Userscript)" in this repository indents and thereby improves the readability of Ohio's online Revised Code (laws) and Adminstrative Code at http://codes.ohio.gov/.  The userscript indents divisions and subdivisions, etc.  (Divisions are prefaced with letters like (A) and (B), while subdivisions are prefaced with numbers (1) and (2).)
+
+  **WARNING!**  *Userscripts can be very useful, but userscript technology is inherently dangerous because of the browser extension (see below) that, in general, has access to every page you use.  Do NOT install such an extension and do NOT use any userscript unless you are very comfortable with what they are doing!*
+
+## What is a userscript?
 
 A [userscript](https://en.wikipedia.org/wiki/Userscript) can modify webpages while you are viewing it to provide [augmented browsing](https://en.wikipedia.org/wiki/Augmented_browsing).  Userscripts, including this one, are typically loaded by and run within a userscript manager browser extension.
 
