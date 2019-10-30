@@ -84,9 +84,6 @@ function vIndentContentByLevel() {
 
                     // Get the prefix (from between the parentheses)
                     var sCurPrefix = reResult[1];
-                    if( sCurLoc === '(B)(29)(b)(ii)(a)(iv)' ) {
-                        debugger;
-                    }
 
                     // Use the current level and the current array of arrays to determine whether to stay on the current level or go up or down
 
