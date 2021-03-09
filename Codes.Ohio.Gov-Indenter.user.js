@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name        Codes.Ohio.Gov-Indenter.user.js
 // @namespace   http://dmiratech.com/
-// @version     2.0.1
+// @version     2.0.2
 // @description Indents the divisions and subdivisions, etc. in Ohio's online
 //              copy of its laws (Revised Code; ORC) and Administrative Code
 //              (OAC).
 // @author      Jonathan (Jon) Freed
-// @license     The Unlicense.  See http://unlicense.org/.
+// @license     CC0 1.0.  See https://creativecommons.org/publicdomain/zero/1.0/.
 // @supportURL  https://github.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js
 // @downloadURL https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
 // @updateURL   https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
-// @match       http://codes.ohio.gov/*
+// @match       http*://codes.ohio.gov/*
 // @grant       none
 // @run-at      document-idle
 // ==/UserScript==
@@ -71,13 +71,13 @@ function vIndentContentByLevel() {
             }
             aCurLoc = [''];
         }
-        // Else, if we're on a "p" that isn't a history "p"...
+        // Else, if we're on a "p" element that isn't within a history section...
         // Note: - History p sections contain information about when the preceding text became law.
         //       - This is the last else-if, and there is no else.
         else if (aX[iX].matches('p:not([class^=History])')) {
             try {
 
-                // If the p begins with a outline level prefix
+                // If the p element's text begins with a outline level prefix
                 var reResult = reForOutlineLvlPrefix.exec(aX[iX].textContent);
                 if (reResult) {
                     foundLevel = false;
@@ -149,7 +149,7 @@ function vIndentContentByLevel() {
                         }
                     }
 
-                } //end if the p begins with an outline level prefix
+                } //end if the p element's text begins with an outline level prefix
 
                 // Use the number of levels to set the indenting (pad-left the current "p" element)
                 aX[iX].style.paddingLeft = (iCurLvl * iPixelsOfIndentingPerLevel) + "px";
