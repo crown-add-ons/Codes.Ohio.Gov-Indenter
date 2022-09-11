@@ -20,7 +20,7 @@ Use the following button for your browser to go to the browser store's page for 
 
 ## NEED SUPPORT?
 
-Go create an [issue](https://github.com/crown-add-ons/Codes.Ohio.Gov-Indenter/issues).  Please bear in mind that this is free software that has been donated to the public domain through [the Unlicense](http://unlicense.org/) and support may be quite slow in coming.
+Go create an [issue](https://github.com/crown-add-ons/Codes.Ohio.Gov-Indenter/issues).  Please bear in mind that this is free software and support may be quite slow in coming.
 
 ## LICENSE
 

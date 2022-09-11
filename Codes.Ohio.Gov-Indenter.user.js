@@ -1,19 +1,9 @@
-// ==UserScript==
-// @name        Codes.Ohio.Gov-Indenter.user.js
-// @namespace   jon-freed
-// @version     3.0.1
-// @description Indents the divisions and subdivisions, etc. in Ohio's online
-//              copy of its laws (Revised Code; ORC) and Administrative Code
-//              (OAC).
-// @author      Jonathan (Jon) Freed
-// @license     CC0 1.0.  See https://creativecommons.org/publicdomain/zero/1.0/.
+d// @name        Codes.Ohio.Gov Indenter
+// @version     0.0.1
+// @description Indents the divisions and subdivisions, etc. in Ohio's online copy of its laws (Revised Code; ORC) and Administrative Code (OAC).
+// @author      Crown Add-ons
+// @license     CC BY-NC-SA 4.0
 // @supportURL  https://github.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js
-// @downloadURL https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
-// @updateURL   https://raw.githubusercontent.com/jon-freed/Codes.Ohio.Gov-Indenter.user.js/master/Codes.Ohio.Gov-Indenter.user.js
-// @match       http*://codes.ohio.gov/*
-// @grant       none
-// @run-at      document-idle
-// ==/UserScript==
 ///////////////////////////////////////////////////////////////////////////////
 var pixelsOfIndentingPerLevel = 50;
 ///////////////////////////////////////////////////////////////////////////////
